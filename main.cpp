@@ -3,7 +3,8 @@
 #define SIZE 1024
 int main(int argc, char** argv) {
  char* str = (char*)malloc(sizeof(char) * SIZE);
- printf("Введите своё имя:\n");
+ puts("Привет");
+ puts(str);
  scanf("%s", str);
  printf("Привет, %s", str);
  return 0;
